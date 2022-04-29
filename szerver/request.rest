@@ -1,0 +1,70 @@
+GET http://localhost:3001/
+
+###
+
+GET http://localhost:3001/mindentermek
+
+###
+GET http://localhost:3001/kategoriatermekek/pizza
+
+###
+GET http://localhost:3001/kategoriatermekek/tpizza
+
+###
+GET http://localhost:3001/kategoriatermekek/lpizza
+
+###
+GET http://localhost:3001/kategoriatermekek/hamburger
+
+###
+GET http://localhost:3001/kategoriatermekek/udeto
+
+###
+GET http://localhost:3001/kategoriatermekek/edrink
+
+###
+GET http://localhost:3001/kategoriatermekek/sor
+
+###
+GET http://localhost:3001/kategoriatermekek/asor
+
+###
+GET http://localhost:3001/mindentermekadmin
+
+###
+GET http://localhost:3001/adminok
+
+###
+GET http://localhost:3001/foglalasok
+
+###
+GET http://localhost:3001/login
+
+###
+POST http://localhost:3001/register
+Content-Type: application/json
+
+{
+    "felhasznalonev":"NemTudom",
+    "jelszo":"NemTudom",
+    "email":"NemTudom@passz.hu"
+}
+
+###
+POST http://localhost:3001/login
+Content-Type: application/json
+
+{
+    "felhasznalonev":"NemTudom",
+    "jelszo":"NemTudom"
+}
+
+###
+POST http://localhost:3001/asztalfoglalas
+Content-Type: application/json
+
+{
+    "nev":"Kiss Pista",
+    "telszam":709876543,
+    "asztal":2
+}

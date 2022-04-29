@@ -1,0 +1,272 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.textfield {
+  text-indent: 25px;
+}
+
+.imagecenter {
+  padding-top: 15px;
+}
+
+.container {
+  flex: 1;
+}
+
+.footer {
+  padding: 0.9375rem 1.875rem;
+  background-color: black;
+  color: gainsboro;
+}
+
+.footer a:link {
+  color: gainsboro;
+}
+
+.footer a:visited {
+  color: gainsboro;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-list li {
+  margin: 0.125rem 0.625rem;
+  white-space: nowrap;
+}
+
+.footer-list li:nth-last-child(2) {
+    flex: 1;
+}
+
+.centerBlock {
+  width: 300px;
+  margin: auto;
+}
+
+.errortext {
+  color: red;
+}
+
+.widethings {
+  width: 300px;
+}
+
+.roundenbutton {
+  border-radius: 50px !important;
+}
+
+.valami {
+  height: 60vh;
+}
+
+.home-wallpaper {
+  object-fit: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.home-wallpaper-screen {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#hatter {
+  position: relative;
+}
+
+.home-wallpaper-screen img {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  opacity: 0.5;
+}
+
+.spacer20vh {
+  height: 20vh;
+}
+
+.cartprice {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgb(29, 204, 29) !important;
+}
+
+.overlay {
+  visibility: hidden;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+}
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  cursor: pointer;
+  color: #000;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px) {
+  .popup {
+    width: 70%;
+  }
+}
+
+.shop-items {
+  width: 15rem;
+  height: 15rem;
+  object-fit: fill;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal { 
+  background: rgba(000, 000, 000, 0.8);
+  min-height: 100%;
+  text-align: center;
+ }
+
+ .modal-open {
+  padding-right: 0 !important;
+ }
+
+ .kosar {
+  right: 15px;
+  bottom: 15px;
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 800px) {
+  .kosar {
+      width: 60px;
+      height: 60px;
+      left: 0px;
+      right: 0px;
+      margin: auto;
+  }
+}
+
+.kosar-badge {
+  margin-left: 27px;
+  margin-top: -3px;
+  position: fixed;
+}
+
+.kosar-shadow {
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.233);
+  cursor: pointer;
+  outline: none;
+}
+
+.kosar-shadow:hover {
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.651);
+  color: #fff;
+}
+
+.kosar-pill-shadow {
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+.kosar-pill-shadow:hover {
+  transform: translateY(-7px);
+}
+
+.navbar-magassag {
+  height: 40px !important;
+}
+
+#my-scrollbar {
+  width: 500px;
+  height: 500px;
+  overflow: auto;
+}
+
+.icon {
+  margin-top: 8px;
+}
