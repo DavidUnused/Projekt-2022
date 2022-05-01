@@ -1,0 +1,15 @@
+Projektmunka:
+
+Asztalfoglalásnál felhasznált kép: https://www.roomsketcher.com/floor-plan-gallery/145/restaurant-floor-plan-examples/playful-cupcake-coffee-shop-plan/
+
+Minden termék képje: https://stonespizza.hu/
+
+Doksi:
+
+HTML, JS, CSS logók: https://pngset.com/transparent-png#xqvpm
+
+Node.js logó: https://logosvector.net/download-node-js-logo-vector-image-eps.html
+
+React.js logó: https://logos-download.com/9747-react-logo-download.html
+
+MySQL logó: https://www.mysql.com/about/legal/logos.html
