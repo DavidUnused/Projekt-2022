@@ -5,8 +5,11 @@ Az alkalmazás helyes működése érdekében a Kliens és Szerver mappa egy hel
 Az adatbázist nem feltétlenül kell importálni, a Weboldalon található egy "Demó" lap, amelyben ezt egy gombnyomásra megtehetjük, ha van egy Locálisan futó MySQL szerverünk.
 
 Az alapértelmezett Admin belépéséhez szükséges infók:
+
 Username: Admin
+
 Password: Admin
+
 
 Ezt a Webalkalmazást Dajka Gabriella, Földi Dávid Tamás és Megyeri Bálint készítette.
 
